@@ -18,11 +18,11 @@ export default function Home({ allPostsData }) {
             学んだ知識を皆さんにシェアしたいと思います。
             <br />
             <br />
-            #自然のまま #無添加 #シンプルな考え #何でもチャレンジ #Challenger
+            #自然のまま #無添加 #シンプルな考え #何でもチャレンジ 
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (このサンプルサイトの参考リンクは→{' '}
+          <a href="https://nextjs.org/learn">Next.js</a>.)
         </p>
       </section>
 

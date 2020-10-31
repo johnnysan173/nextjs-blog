@@ -17,7 +17,8 @@ export default function Home({ allPostsData }) {
             今持続性がある自然農とシンプルなプログラミングを勉強しています。
             学んだ知識を皆さんにシェアしたいと思います。
             <br />
-            #自然のまま #無添加 #シンプルな考え #何でもチャレンジ
+            <br />
+            #自然のまま #無添加 #シンプルな考え #何でもチャレンジ #Challenger
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}

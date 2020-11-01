@@ -23,6 +23,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="viewport" content="width=device-width,initial-scale=0.9" />
       </Head>
       <header className={styles.header}>
         {home ? (

@@ -24,4 +24,52 @@ a:hover {
 img {
     max-width: 100%;
     display: block;
+    box-shadow: 1px 1px 3px gray;
+    margin: 0.5rem 0rem;
+}
+
+main h1 {
+    animation: SlideIn 2s;
+}
+
+main h2 {
+    animation: SlideIn 2s;
+}
+
+main h3 {
+    border-bottom: 3px solid black;
+    padding: 0.2rem;
+    animation: SlideIn 2.5s;
+}
+/* CSSアニメーションの指定 */
+.Headline{
+  animation: SlideIn 1.6s infinite;
+}
+
+/* CSSアニメーションの設定 */
+@keyframes SlideIn {
+  0% {
+    opacity: 0;/*初期状態では透明に*/
+    transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+strong {
+    background-color: orange;
+    padding: 0rem 0.2rem;
+    margin: 0rem 0.2rem;
+    border-radius: 0.2rem;
+    font-weight: normal;
+}
+
+blockquote {
+  background-color: #f5f5f5;
+  padding: 0.1rem 1rem;
+  box-shadow: 1px 1px 3px gray;
+  margin: 0;
+  font-size: 0.7rem;
 }

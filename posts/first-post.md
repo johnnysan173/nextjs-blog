@@ -11,3 +11,6 @@ date: '2020-10-31'
 - 半農半Xを目指す生活
 
 今すぐマスターできなくても、少しずつシンプルで歩いていきたい。今保護される枠から出て、チャレンジしたい。今36歳だけと、遅いことがありません。
+
+![sky](http://www.adigitaldreamer.com/gallery/albums/userpics/10001/normal_cloudsap2.jpg)
+

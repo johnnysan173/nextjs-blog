@@ -29,7 +29,7 @@ img {
 }
 
 main h1 {
-    animation: SlideIn 2s;
+    animation: SlideIn 1s;
 }
 
 main h2 {
@@ -41,12 +41,7 @@ main h3 {
     padding: 0.2rem;
     animation: SlideIn 2.5s;
 }
-/* CSSアニメーションの指定 */
-.Headline{
-  animation: SlideIn 1.6s infinite;
-}
 
-/* CSSアニメーションの設定 */
 @keyframes SlideIn {
   0% {
     opacity: 0;/*初期状態では透明に*/

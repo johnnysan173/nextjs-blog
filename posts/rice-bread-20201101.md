@@ -2,12 +2,11 @@
 title: '生米パンを挑戦(作成中)'
 date: '2020-11-01'
 catagory: 'Bakery'
+thumb: '/images/ricebread.jpg'
 tag:
 - '生米パン'
 - '挑戦'
 ---
-
-## 生米パンを挑戦（記事作成中）
 
 この記事は下記通り解説
 - レシピ通り実践した生米パン

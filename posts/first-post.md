@@ -1,6 +1,8 @@
 ---
 title: '初めてのMarkdown記事'
 date: '2020-10-31'
+thumb: '/images/nextblog.jpg'
+
 ---
 
 今回初めてmarkdown方式なブログを描いてみる、やはりmarkdownは1番**シンプル**。今回のブログのシェアすること

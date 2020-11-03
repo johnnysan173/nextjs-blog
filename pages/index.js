@@ -5,8 +5,10 @@ import {getSortedPostsData} from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import styles from '../components/layout.module.css'
+import Tag from '../components/tag'
 
 export default function Home({ allPostsData }) {
+    const mytag='自然のまま,無添加,シンプルな考え,何でもチャレンジ';
     return (
         <Layout home>
       <Head>
@@ -17,20 +19,27 @@ export default function Home({ allPostsData }) {
             香港から来ました。大阪高槻在住。自由自在な生活スタイルを模索中。
             今持続性がある自然農とシンプルなプログラミングを勉強しています。
             学んだ知識を皆さんにシェアしたいと思います。
-            <br />
-            <br />
-            #自然のまま #無添加 #シンプルな考え #何でもチャレンジ 
+            
         </p>
+        <Tag tag={mytag}/>
         <p>
-          (このサンプルサイトの参考リンクは→{' '}
-          <a href="https://nextjs.org/learn">Next.js</a>.)
+          <div>↓↓ 私について、下記のリンクを ↓↓</div>{' '}
+          <a href="https://johnnysan.info" target='_blank'>Johnnyの電子名刺</a>
         </p>
+        <blockquote>
+            <p>
+            このサイトの公式参考レシピは→{' '}
+            <a href="https://nextjs.org/learn">Next.js</a>です.
+            <br />
+            Myブログを作成したい方、ぜひ見てみてください！
+            </p>
+        </blockquote>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h3 className={utilStyles.headingLg}>My Blog Collection</h3>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, thumb }) => (
+          {allPostsData.map(({ id, date, title, thumb, tag }) => (
             <li className={utilStyles.listItem} key={id}>
                 <div className={utilStyles.postbox}>
                     <div className={utilStyles.postboxpic}>
@@ -43,6 +52,7 @@ export default function Home({ allPostsData }) {
                         <br />
                         <small className={utilStyles.lightText}>
                             <Date dateString={date} />
+                            <Tag tag={tag} />
                         </small>
                     </div>
                 </div>

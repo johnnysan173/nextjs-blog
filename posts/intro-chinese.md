@@ -2,7 +2,7 @@
 title: '大家好，我係Johnny'
 date: '2020-10-31'
 thumb: '/images/home.jpg'
-tag: 'Self,HongKong'
+tag: 'シンプルな生活'
 ---
 
 呢個係我嘅website. 我而家喺大阪嘅高槻市住。係屋企附近借咗少少農地開始自然農。上年開始學吓寫簡單嘅程式。將來希望生活得更自由。我而家嘅keywords係

@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Johnnyのブログ"
+          content="自然農、生米パン、プログラミングのゆったり生活を目指す"
         />
         {/* <meta
           property="og:image"

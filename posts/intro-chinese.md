@@ -1,6 +1,6 @@
 ---
 title: '大家好，我係Johnny'
-date: '2020-10-31'
+date: '2020-10-29'
 thumb: '/images/home.jpg'
 tag: 'シンプルな生活'
 ---

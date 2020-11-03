@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Johnnyのブログ"
         />
         {/* <meta
           property="og:image"
@@ -23,9 +23,7 @@ export default function Layout({ children, home }) {
         /> */}
         <meta
           property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=/images/favicon.ico`}
+          content="https://uploads.codesandbox.io/uploads/user/1044f1e3-3574-49e2-b624-02203c94bd7d/iW4f-ProfilePic.jpeg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

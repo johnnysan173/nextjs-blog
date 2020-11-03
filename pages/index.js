@@ -8,7 +8,7 @@ import styles from '../components/layout.module.css'
 import Tag from '../components/tag'
 
 export default function Home({ allPostsData }) {
-    const mytag='自然のまま,無添加,シンプルな考え,何でもチャレンジ';
+    const mytag='全部,自然農,生米パン,プログラミング,シンプルな生活';
     return (
         <Layout home>
       <Head>
@@ -21,7 +21,6 @@ export default function Home({ allPostsData }) {
             学んだ知識を皆さんにシェアしたいと思います。
             
         </p>
-        <Tag tag={mytag}/>
         <p>
           <div>↓↓ 私について、下記のリンクを ↓↓</div>{' '}
           <a href="https://johnnysan.info" target='_blank'>Johnnyの電子名刺</a>
@@ -38,9 +37,11 @@ export default function Home({ allPostsData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h3 className={utilStyles.headingLg}>My Blog Collection</h3>
+        <Tag tag={mytag}/>
+        <br />
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, thumb, tag }) => (
-            <li className={utilStyles.listItem} key={id}>
+              <li className={utilStyles.listItem} key={id}>
                 <div className={utilStyles.postbox}>
                     <div className={utilStyles.postboxpic}>
                         <img src={thumb} className={utilStyles.postthumb} alt="Post" />

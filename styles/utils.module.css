@@ -35,12 +35,12 @@
 }
 
 .postboxpic {
-  width: 5rem;
+  width: 6rem;
 }
 
 .postthumb {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   object-fit: cover;
 }
 
@@ -64,4 +64,14 @@
 
 .lightText {
   color: #999;
+}
+
+.tag {
+  background-color: lightgray;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  color:black;
+  display: inline-block;
 }

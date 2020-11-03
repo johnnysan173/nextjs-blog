@@ -13,13 +13,17 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="自然農、生米パン、プログラミングのゆったり生活を目指す"
         />
-        <meta
+        {/* <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        /> */}
+        <meta
+          property="og:image"
+          content="https://uploads.codesandbox.io/uploads/user/1044f1e3-3574-49e2-b624-02203c94bd7d/iW4f-ProfilePic.jpeg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

@@ -1,6 +1,6 @@
 ---
 title: 'First post on this site'
-date: '2020-10-31'
+date: '2020-10-30'
 thumb: '/images/farm.jpg'
 tag: 'シンプルな生活'
 ---

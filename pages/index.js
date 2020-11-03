@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           <div>↓↓ 私について、下記のリンクを ↓↓</div>{' '}
-          <a href="https://johnnysan.info" target='_blank'>Johnnyの電子名刺</a>
+          <a href="https://johnnysan.netlify.app" target='_blank'>Johnnyの電子名刺</a>
         </p>
         <blockquote>
             <p>

@@ -7,7 +7,7 @@ import Date from '../components/date'
 import styles from '../components/layout.module.css'
 import Tag from '../components/tag'
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, apidata }) {
     const mytag='全部,自然農,生米パン,プログラミング,シンプルな生活';
     return (
         <Layout home>
@@ -15,6 +15,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        {/* <p>{apidata.message}</p> */}
         <p>
             香港から来ました。大阪高槻在住。自由自在な生活スタイルを模索中。
             今持続性がある自然農とシンプルなプログラミングを勉強しています。
@@ -68,9 +69,15 @@ export default function Home({ allPostsData }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+  const word = 'API test';
+  const response = await fetch(`http://localhost:8080/api/${word}`);
+  console.log(response);
+  console.log("finished");
+  const apidata = await response.json();
+  console.log(apidata);
   return {
     props: {
-      allPostsData
+      allPostsData, apidata
     }   
   } 
 }

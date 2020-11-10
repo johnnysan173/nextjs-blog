@@ -7,10 +7,11 @@ tag: 'Programming'
 
 ## まず、成果物はこれ
 
-自分の名刺をNPMで公開し、相手に簡単にアクセスできる
+自分の名刺をNPMで公開し、相手に簡単にアクセスできる。Terminal（NPMインストール済）に下記を叩いたら。。。
 ```
 npx johnnysan
 ```
+下記の電子名刺を出来くる😎
 ![NPX Namecardサンプル](/images/npx-namecard.PNG)
 
 ## 今回電子名刺作るきっかけと参考

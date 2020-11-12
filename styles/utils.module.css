@@ -35,7 +35,8 @@
 }
 
 .postboxpic {
-  width: 6rem;
+  /* width: 6rem; */
+  flex: 0 0 6rem;
 }
 
 .postthumb {

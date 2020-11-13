@@ -1,11 +1,11 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  /* padding: 0; */
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 * {
@@ -34,12 +34,16 @@ main h1 {
 
 main h2 {
     animation: SlideIn 2s;
+    border-bottom: 3px solid black;
+    /* padding: 0.2rem; */
+    font-size: 1.2rem;
 }
 
 main h3 {
-    border-bottom: 3px solid black;
-    padding: 0.2rem;
+    /* border-bottom: 3px solid black; */
+    /* padding: 0.2rem; */
     animation: SlideIn 2.5s;
+    font-size: 1rem;
 }
 
 @keyframes SlideIn {

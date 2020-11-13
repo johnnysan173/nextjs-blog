@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h3 className={utilStyles.headingLg}>My Blog Collection</h3>
+        <h2 className={utilStyles.headingLg}>My Blog Collection</h2>
         <Tag tag={mytag}/>
         <br />
         <ul className={utilStyles.list}>

@@ -8,6 +8,10 @@ body {
   font-size: 18px;
 }
 
+ol, ul {
+  padding-left: 1.5rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -34,12 +38,13 @@ main h1 {
 
 main h2 {
     animation: SlideIn 2s;
+    border-bottom: 3px solid black;
+    font-size: 1.2rem;
 }
 
 main h3 {
-    border-bottom: 3px solid black;
-    padding: 0.2rem;
     animation: SlideIn 2.5s;
+    font-size: 1rem;
 }
 
 @keyframes SlideIn {
@@ -69,7 +74,7 @@ blockquote {
   font-size: 0.7rem;
 }
 
-pre {
+pre, code {
   margin: 1em 0;
   padding: 1em;
   border-radius: 5px;
@@ -77,8 +82,25 @@ pre {
   color: #fff;
   overflow-x: auto; /* ⭐ */
   -webkit-overflow-scrolling: touch; /* ⭐ */
+  font-size: 0.8em;
+}
+
+code{
+    padding: 0.2rem ;
+    margin: 0.2rem 0;
+    border-radius: 0.2rem;
+}
+
+pre code {
+  padding: 0;
 }
 
 p {
     text-align: justify;
+    /* word-break: break-all; */
+}
+
+address {
+    word-break: break-all;
+    font-size: 0.7rem;
 }

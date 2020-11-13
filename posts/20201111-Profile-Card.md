@@ -335,6 +335,7 @@ CSSの編集疲れ様、自分でごりごりしても限界があるので、�
     .skill-bar {
         background-color: lightgray;
         border-radius: 20px;
+        margin-bottom: 20px;
     }
 
     .skill-value {
@@ -342,7 +343,7 @@ CSSの編集疲れ様、自分でごりごりしても限界があるので、�
         border-radius: 20px;
         text-align: center;
         color: white;
-        padding: 5px;
+        padding: 2px;
     }
     ```
     まあまあ綺麗な横棒を出来来たでしょ？他の3つも同様にセットしたら、「経験値　XX点」を消しても大丈夫。
@@ -350,11 +351,34 @@ CSSの編集疲れ様、自分でごりごりしても限界があるので、�
     > **background-color**背景の色, **border-radius**枠コーナーの角丸, **text-align**文字の整列, **color**文字の色。今回**div**を二つを重ねて、外の**div**skill-barは薄い灰色、長さ100%の棒で、内の**div**skill-valueはHTMLで長さを設定し、CSSで濃いオレンジ色を設定したら、こんな風になる
 
 - CSSの仕上げ
-    pタグの間隔を調整
-    HyperLinkの色消す
-    Iconifyの幅を統一
+    - pタグの間隔を調整
+    - HyperLinkの色消す
+    - Iconifyの幅を統一
+    ```
+    p {
+        margin: 0.5rem 0;
+    }
+
+    a {
+        color: black;
+    }
+
+    .iconify {
+        width: 1rem;
+    }
+    ```
+    > **p**と**p**の間に間隔を少し詰める。「0.5rem 0」は上下「0.5rem」左右は「0」のまま。**a**の色の初期値は青色だが、テーマと合わないので、黒にした。**.iconify**アイコン幅は統一されていない、特にTwitterのアイコン少し横幅が広いので、全て「1rem」で統一する。
+
+### 10. NetlifyでDeploy
+
+どても簡単、一番左ロケットマーク🚀を押して、青色の「Deploy to Netlify」を押したら、少し待ってから完了！生成したサイトはhttps://xxx-xxxxx.netlify.app/みたいな感じになる
+
+## 最後
+
+皆さん、うまくいかかでしょうか？生成したサイトのリンクをブックマーク保存して、いざの時すぐ出せる。そして、もう一個方法はQR Codeに生成して、相手のカメラに読んでもらうも便利だよ。
+> 私がいつも使っているサイトはこれです。[https://qr.quel.jp/](https://qr.quel.jp/)　簡単にQR Codeを生成できて、便利！！
 
 
-### 10. NetifyでDeploy
+完成したら、私のSNSまで連絡していただければうれしいです。
 
-
+尚、どこか詰まったら、遠慮なくご連絡ください。できる範囲で回答します。

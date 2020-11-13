@@ -45,6 +45,7 @@ main h2 {
 main h3 {
     animation: SlideIn 2.5s;
     font-size: 1rem;
+    margin-top: 1.5rem;
 }
 
 @keyframes SlideIn {

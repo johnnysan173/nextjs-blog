@@ -8,7 +8,8 @@ tag: 'Programming'
 ## まず、成果物はこれ
 
 自分の名刺をネットで公開し、リンクとかQR Codeを相手につたえば、簡単にアクセスできる。
-![電子名刺のgif](http://placehold.jp/006699/99bbdd/320x500.png?text=Preview)
+![電子名刺のgif](/images/profilepreview.gif)
+<!-- ![電子名刺のgif](http://placehold.jp/006699/99bbdd/320x500.png?text=Preview) -->
 
 使用場面
 - あ、名刺が忘れてしもうた

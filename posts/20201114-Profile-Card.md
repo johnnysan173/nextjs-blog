@@ -1,7 +1,7 @@
 ---
 title: '電子名刺を作ってみない？'
 date: '2020-11-14'
-thumb: '/images/e-namecard.jpeg'
+thumb: '/images/e-namecard.jpg'
 tag: 'Programming'
 ---
 

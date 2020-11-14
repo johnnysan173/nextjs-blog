@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <p>
             香港から来ました。大阪高槻在住。自由自在な生活スタイルを模索中。
             今持続性がある自然農とシンプルなプログラミングを勉強しています。
@@ -35,8 +35,8 @@ export default function Home({ allPostsData }) {
         </blockquote>
       </section>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>My Blog Collection</h2>
+      <section>
+        <h2>My Blog Collection</h2>
         <Tag tag={mytag}/>
         <br />
         <ul className={utilStyles.list}>

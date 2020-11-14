@@ -1,7 +1,7 @@
 ---
-title: '電子名刺を作ってみない？（作成中）'
-date: '2020-11-11'
-thumb: '/images/profile.jpg'
+title: '電子名刺を作ってみない？'
+date: '2020-11-14'
+thumb: '/images/e-namecard.jpg'
 tag: 'Programming'
 ---
 
@@ -396,12 +396,20 @@ CSSの編集疲れ様、自分でごりごりしても限界があるので、�
 
 ### 9. ネットで公開（Deploy）
 
-どても簡単、一番左ロケットマーク🚀を押して、青色の「Deploy to Netlify」を押したら、少し待ってから完了！生成したサイトはhttps://xxx-xxxxx.netlify.app/みたいな感じになる
+どても簡単、一番左ロケットマーク🚀を押して、青色の「Deploy to Netlify」を押したら、少し待ってから完了！生成したサイトはhttps://xxx-xxxxx.netlify.app/みたいな感じになる。
+
+私の場合はnetlifyにログインして編集したので、これです。
+
+[https://johnnysan.netlify.app](https://johnnysan.netlify.app)
 
 ## 最後
 
 皆さん、いかかでしょうか？いざの時すぐ出せるように、生成したサイトのリンクをブックマーク保存してね。そして、もう一個方法はQR Codeに生成して、相手のカメラに読んでもらうも便利だよ。
-> 私がいつも使っているサイトはこれです。[https://qr.quel.jp/](https://qr.quel.jp/)　簡単にQR Codeを生成できて、便利！！
+
+ちなみに、下記は私のブログのQR Codeです。
+<img src="https://uploads.codesandbox.io/uploads/user/1044f1e3-3574-49e2-b624-02203c94bd7d/s3Ni-johnnysan.info" style="margin:20px auto"/>
+
+> 私がいつも使っているQR Code生成サイトはこれです。[https://qr.quel.jp/](https://qr.quel.jp/)　簡単にQR Codeを生成できて、便利！！
 
 
 完成したら、ぜひ私のSNSまで連絡していただければうれしいです。
